@@ -2,7 +2,7 @@ const Userdata = [
     {
       name: "Jon Snow",
       role: "React Developer",
-      skills: ["HTML", "CSS", "JavaScript", "React"],
+      skills: ["HTML", "CSS", "JavaScript", "React",'Jquery'],
       ima: "images/jon.jpg"
     },
     {
