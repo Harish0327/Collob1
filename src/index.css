@@ -402,6 +402,7 @@
 
 .Blog-post img {
   height: 250px;
+  width: 350px;
   border-radius: 20px;
   transition: transform 0.3s ease;
 }

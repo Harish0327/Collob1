@@ -23,7 +23,7 @@ export default function Front() {
                     imaRef.current.scrollTo({ left: 0, behavior: 'instant' });
                 }
             }
-        }, 3000); // Adjust the interval timing as needed
+        }, 2000); // Adjust the interval timing as needed
 
         return () => clearInterval(interval);
     }, []);
@@ -75,8 +75,8 @@ export default function Front() {
             <div className='Ima' ref={imaRef}>
                 <div className="Ima-content">
                     <img src="src/assets/Images/leslie-rose-kit-harington-hochzeit.webp" alt="Wedding 1" />
-                    <img src="src/assets/Images/200804-blake-lively-ryan-reynolds-jm-1045.jpg" alt="Couple 1" />
-                    <img src="src/assets/Images/dfca48c0-f163-0132-44b1-0a2ca390b447.jpg" alt="Wedding 2" />
+                    <img src="src\assets\Images\pexels-the-shaanphotography-1496986664-27286970.jpg" alt="Couple 1" />
+                    <img src="src\assets\Images\pexels-anoop1992-20331725.jpg" alt="Wedding 2" />
                     
                     {/* Duplicate the images for seamless looping */}
                     <img src="src/assets/Images/leslie-rose-kit-harington-hochzeit.webp" alt="Wedding 1" />
@@ -144,16 +144,16 @@ export default function Front() {
                 <h1 className="blog-header">OUR BLOG</h1>
                 <div className="Blog-posts">
                     <div className="Blog-post">
-                        <h2>MR & MRS REYENOLDS</h2>
-                        <img src="src/assets/Images/200804-blake-lively-ryan-reynolds-jm-1045.jpg" alt="Blog Post 1" />
-                        <p className="date">August 31, 2024</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non rhoncus leo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga reiciendis excepturi laboriosam, quaerat assumenda, ratione minima vel necessitatibus, quis tempora cupiditate animi impedit iste ducimus. Distinctio, esse eum vero excepturi eius maxime nihil quidem facere repudiandae assumenda iste explicabo incidunt fugiat cupiditate minus sapiente consequatur accusamus sunt laboriosam tenetur!.</p>
+                        <h2>MR & MRS Vineeth </h2>
+                        <img src="src\assets\Images\WhatsApp Image 2024-09-11 at 11.55.10 AM.jpeg" alt="Blog Post 1" />
+                        <p className="date">March 27, 2024</p>
+                        <p>"We couldn’t have asked for a better experience than the one we had with Cameron Photography on our wedding day! From the moment we met Cameron, we knew we were in good hands. He has a natural ability to make people feel comfortable, which helped us relax and enjoy the day without feeling awkward in front of the camera"</p>
                     </div>
                     <div className="Blog-post">
-                        <h2>MR & MRS REYENOLDS</h2>
-                        <img src="src/assets/Images/200804-blake-lively-ryan-reynolds-jm-1045.jpg" alt="Blog Post 2" />
-                        <p className="date">August 31, 2024</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non rhoncus leo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga reiciendis excepturi laboriosam, quaerat assumenda, ratione minima vel necessitatibus, quis tempora cupiditate animi impedit iste ducimus. Distinctio, esse eum vero excepturi eius maxime nihil quidem facere repudiandae assumenda iste explicabo incidunt fugiat cupiditate minus sapiente consequatur accusamus sunt laboriosam tenetur!.</p>
+                        <h2>MR & MRS Sidharath</h2>
+                        <img src="src\assets\Images\WhatsApp Image 2024-09-11 at 12.03.38 PM.jpeg" alt="Blog Post 2" />
+                        <p className="date">August 13, 2024</p>
+                        <p>"Cameron has an incredible eye for detail. Every photo he took felt like it captured not just the events of the day, but the emotions and atmosphere too. He was so easy to communicate with and really listened to our vision for the wedding album. The results were beyond what we could have imagined—beautiful, timeless images that tell the story of our special day perfectly."</p>
                     </div>
                 </div>
             </div>
